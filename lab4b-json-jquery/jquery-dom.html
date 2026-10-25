@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 4b - jQuery DOM and Events</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #myElement {
+      margin-bottom: 16px;
+      font-size: 1.2rem;
+      font-weight: 750;
+    }
+
+    #myDIV {
+      margin-bottom: 18px;
+      border-radius: 9px;
+    }
+
+    #myDIV p {
+      margin: 0;
+    }
+
+    .myStyle {
+      background-color: coral;
+      padding: 16px;
+    }
+
+    #clickStatus {
+      min-height: 1.5em;
+      margin: 16px 0 0;
+      color: #6f4114;
+      font-weight: 750;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+  <script src="jquery-dom.js" defer></script>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Lab 4b · Question 3</p>
+    <h1>jQuery DOM and Events</h1>
+    <p class="intro">The page uses <code>.text()</code>, <code>.addClass()</code>, and <code>.on()</code> to perform the required operations.</p>
+
+    <section class="panel" aria-label="jQuery demonstration">
+      <div id="myElement">Original Text</div>
+      <div id="myDIV"><p>I am a myDIV.</p></div>
+      <button id="myButton" type="button">Click me</button>
+      <p id="clickStatus" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+</body>
+</html>

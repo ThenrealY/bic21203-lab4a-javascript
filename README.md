@@ -2,13 +2,13 @@
 
 ## Student details
 
-- Name: Complete before submission
-- Student ID: Complete before submission
-- GitHub repository: Add after publishing
+- Name: Muhammad Danial Bin Mohd Yatim
+- Student ID: DI230045
+- GitHub repository: https://github.com/ThenrealY/bic21203-lab4a-javascript
 
 ## Overview
 
-This repository contains three independent browser exercises demonstrating JavaScript functions, event listeners, conditions, input validation, loops, and safe DOM updates.
+This repository contains the three Lab 4a browser exercises and the supporting Lab 4b JSON and jQuery work. The exercises demonstrate JavaScript functions, event listeners, conditions, input validation, loops, safe DOM updates, JSON retrieval, and jQuery methods.
 
 ## Files
 
@@ -17,11 +17,13 @@ This repository contains three independent browser exercises demonstrating JavaS
 - `q3/index.html` and `q3/script.js` - generates five list items and clears old items before each run.
 - `assets/styles.css` - shared presentation and accessibility styles.
 - `screenshots/` - browser evidence used in the report.
-- `lab4a-report.pdf` - concise submission report.
+- `lab4b-json-jquery/` - Lab 4b JSON, Fetch API, jQuery, README, and screenshots.
 
 ## How to run
 
 Open each `index.html` file in a current desktop browser. A local server is optional for this lab. With VS Code Live Server, right-click an `index.html` file and choose **Open with Live Server**.
+
+For Lab 4b Question 2, run the `lab4b-json-jquery` folder through a local server because `fetch()` cannot reliably load `books.json` from a `file://` address.
 
 ## Test cases
 
